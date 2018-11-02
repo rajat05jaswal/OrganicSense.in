@@ -1,0 +1,196 @@
+@media (min-width: 768px) {
+  .background-stevia{
+    background:linear-gradient(
+      rgba(2, 21, 5, 0.45),
+      rgba(2, 21, 5, 0.45)
+    ),url('../images/carousel-2.jpg');
+    background-size: cover;
+  }
+  .steviaWrapper{
+    .navbar{
+      .navbar-header{
+        padding-left: 50px;
+        margin-left: 20px;
+      }
+      .nav{
+        float: right;
+        padding-right: 50px;
+        margin-right: 20px;
+        li{
+            a{
+              padding:21px 15px;
+            }
+        }
+      }
+    }
+    .mainWrapper{
+      .stevia-carousel{
+          .carousel-inner{
+              .item{
+                p{
+                  padding-top: 80px;
+                }
+                .carousel-btn{
+                  padding: 12px 25px;
+                  border: 1px solid #5c8b5d;
+                  background: #5c8b59;
+                  color: #fefefe;
+                  font-size: 20px;
+                  font-weight: bold;
+                  border-radius: 8px;
+                }
+              }
+            }
+          }
+      .div-content{
+        h3{
+          text-align: center;
+          margin-top:0px;
+        }
+        .about-div{
+          background: rgba(255, 255, 255, 0.75);
+          text-align: left;
+          width:90%;
+          padding: 15px;
+          border: 1px solid #415c12;
+          -moz-box-shadow:5px 5px 5px 5px #415c12;
+          -webkit-box-shadow:5px 5px 5px 5px #415c12;
+          box-shadow:5px 5px 5px 5px #415c12;
+          color: #333;
+          &#second-about-div{
+            float: right;
+            margin:20px 0px;
+            img{
+              margin-top:20px;
+            }
+          }
+          &#third-about-div{
+            clear:both;
+            img{
+              margin-top:20px;
+            }
+          }
+          .content{
+            padding: 15px 0px 15px 20px;
+            text-align: left;
+          }
+        }
+      }
+      .content-wrap{
+        display: table;
+        .img-wrap,.content{
+          display: table-cell;
+          vertical-align: middle;
+        }
+        .content{
+          padding-bottom: 0;
+        }
+      }
+      .stevia-carousel{
+        .carousel-inner{
+          .item{
+            p{
+              font-size: 36px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+  .products-page{
+    .background-stevia{
+      background:linear-gradient(rgba(9, 103, 24, 0.45), rgba(2, 21, 5, 0.45)), url(../images/background-5.jpg);
+      background-size: cover;
+    }
+    .products-heading{
+      font-size: 36px;
+    }
+    .div-content{
+      margin-bottom: 100px;
+      p{
+        &.sub-heading{
+          color: #fefefe;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+      }
+      .product-container{
+        display: table;
+        .products-item:first-child{
+          padding-left: 20px;
+        }
+        .products-item{
+          display: table-cell;
+          width: 30%;
+          background-color: #fefefe;
+          background: rgba(255,255,255,0.75);
+          border: 1px solid #415c12;
+          -moz-box-shadow: 5px 5px 5px 5px #415c12;
+          -webkit-box-shadow: 5px 5px 5px 5px #415c12;
+          box-shadow: 5px 5px 5px 5px #415c12;
+        }
+        .space{
+          width: 20px;
+          display: table-cell;
+        }
+      }
+      .products-stevia{
+        z-index: 999;
+        opacity: 1;
+        padding:15px 0px;
+        .desc-product.hoveractive{
+          max-height: 500px;
+          transition: max-height 0.25s ease-in;
+          padding: 5px 15px;
+        }
+        .desc-product{
+          max-height: 0;
+          transition: max-height 0.15s ease-out;
+          overflow: hidden;
+        }
+         h3{
+           color:black;
+         }
+        img{
+         height: 260px;
+         width:260px;
+        }
+        p{
+          color:black;
+        }
+      }
+    }
+  }
+  .contact-us{
+    h1{
+      font-size: 36px;
+    }
+    p{
+      font-size: 24px;
+    }
+  }
+  .about{
+    h1{
+      font-size: 36px;
+    }
+    p{
+      padding: 40px 40px;
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 900px){
+  .products-page{
+    .div-content{
+      .products-stevia{
+        img{
+          height: 200px;
+          width: 200px;
+        }
+      }
+    }
+  }
+}
